@@ -16,7 +16,7 @@
   <body>
     <?php include("topbar.php"); ?>
     <script type="text/javascript"> $('.menu-comm').attr('class', 'active'); </script>
-    <section id="home" style="margin-top:30px; height: 480px;">
+    <section id="home" style="margin-top:30px;">
       <h1>แสดงความคิดเห็น</h1>
       <br>
 
@@ -31,7 +31,7 @@
               <input type=text name=username value="" readonly/><br>
               <br>
               แสดงความคิดเห็น (200ตัวอักษร) : <br>
-              <textarea name=comment maxlength=200></textarea>
+              <textarea name=comment maxlength=200></textarea> <br>
               <input type="submit" style="width:120px; height:42;" class="regbutton" value="ส่งความคิดเห็น" name="submit">
 
             </form>
@@ -41,7 +41,8 @@
       <div class="rank" id="table" > </div><br>
     </section>
 
-    <footer style="font-size: 15px; text-align: center; padding: 20px; background-color: #fff7e6; ">
+    <footer style="font-size: 15px; text-align: center; padding: 20px; margin-left: auto;left: 0;
+    right: 0;background-color: #fff7e6; bottom:0; position:absolute; ">
       <hr>
       <p>ครูกลอน <br>
 เป็นเว็บไซต์ที่เกิดจากผู้พัฒนาที่สนใจทางด้านภาษาไทย <br> รวมถึงการแต่งกลอน
