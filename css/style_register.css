@@ -1,0 +1,58 @@
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section,
+summary, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'K2D', sans-serif;
+}
+
+.col-regist {
+  width: 40%;
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+input {
+  margin: 2px 5px 10px 0px;
+  padding: 5px;
+  width: 95%;
+  font-family: 'K2D', sans-serif;
+  font-size: 1em;
+  border: 2px solid #ffcc66;
+  outline: none;
+}
+input:focus {
+  border: 2px solid #ffaa00;
+}
+
+input[type=submit] {
+  width: 100%;
+  -webkit-transition-duration: 0.3s;
+  text-decoration: none;
+  font-size: 0.8em;
+  color: black;
+  padding: 10px 20px;
+  background-color: #ffcc66;
+  border-radius: 8px;
+  border: 2px solid #ffcc66;
+  font-family: 'K2D', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: #fff;
+  border: 2px solid #ffcc66;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .col-regist {
+    width: 50%;
+    margin-top: 20%;
+    font-size: 2em;
+  }
+}
