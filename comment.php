@@ -28,7 +28,7 @@
           <div class="form-com">
             <form class="" action="" method="post">
               ชื่อผู้เล่น :<br>
-              <input type=text name=username value="" readonly/><br>
+              <input type=text name=username value="example" readonly/><br>
               <br>
               แสดงความคิดเห็น (200ตัวอักษร) : <br>
               <textarea name=comment maxlength=200></textarea> <br>
