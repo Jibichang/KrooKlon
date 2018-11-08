@@ -122,7 +122,7 @@ class Member{
           // set values to object properties
         $this->id = $row['id'];
         $this->email = $row['email'];
-        $this->username = $row['username'];        
+        $this->username = $row['username'];
     }
 
     public function checkLogin(){

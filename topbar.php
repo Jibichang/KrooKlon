@@ -15,7 +15,7 @@
     <ul>
       <li class="menu-main"><a href="main.php" data-scroll>หน้าแรก</a></li>
       <li class="menu-learn"><a href="learn.php" data-scroll>เรียนรู้การแต่งกลอน</a></li>
-      <li class="menu-game"><a href="selectLevel.php#mainPlay" target="_blank">เล่นเกม</a></li>
+      <li class="menu-game"><a href="playMode.php#mainPlay" target="_blank">เล่นเกม</a></li>
       <li class="menu-comm"><a href="comment.php" data-scroll>แสดงความคิดเห็น</a></li>
       <li class="menu-rank"><a href="rankPlayer.php" data-scroll>อันดับ</a></li>
       <li class="menu-main"><a href="main.php#about" data-scroll>เกี่ยวกับ</a></li>

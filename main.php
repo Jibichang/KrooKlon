@@ -38,7 +38,7 @@
         <ul>
           <li class="menu-item active"><a href="main.php#timeline" data-scroll>หน้าแรก</a></li>
           <li class="menu-item"><a href="learn.php" data-scroll>เรียนรู้การแต่งกลอน</a></li>
-          <li class="menu-item"><a href="selectLevel.php#mainPlay" target="_blank">เล่นเกม</a></li>
+          <li class="menu-item"><a href="playMode.php" target="_blank">เล่นเกม</a></li>
           <li class="menu-item"><a href="comment.php" data-scroll>แสดงความคิดเห็น</a></li>
           <li class="menu-item"><a href="rankPlayer.php" data-scroll>อันดับ</a></li>
           <li class="menu-item"><a href="main.php#about" data-scroll>เกี่ยวกับ</a></li>

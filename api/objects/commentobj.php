@@ -5,7 +5,7 @@
     private $connection;
 
     // table name
-    public $table_name = "commentshow";
+    private $table_name = "commentshow";
 
     public $id;
     public $username;
