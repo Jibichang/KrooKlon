@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    getRank();
+    //getRank();
+    showComment();
 });
 
 function getRank(){
@@ -29,7 +30,7 @@ function getRank(){
 }
 
 function rankk() {
-  $.getJSON("http://localhost/kk/api/member/Rank.php", function(data){
+  $.getJSON("api/member/Rank.php", function(data){
     content = "";
     $.each(data.member, function(i, item) {
       content = content + "ID : " + item.sumScore + ', RANK = ' + item.rank + ' <br>';

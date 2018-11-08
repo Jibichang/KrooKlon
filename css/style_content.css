@@ -247,12 +247,14 @@ table {
 }
 
 .form-com input {
+  padding-left: 5px;
   border: 1px grey solid;
   height:30px;
   width:70%;
 }
 
 .form-com textarea {
+  padding-left: 5px;
   border: 1px grey solid;
   height:50px;
   width:70%;
@@ -265,7 +267,6 @@ table {
   .form-com{
       font-size: 0.7em;
   }
-
   .form-com textarea, .form-com input {
     width:100%;
   }

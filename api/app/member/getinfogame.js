@@ -1,12 +1,12 @@
 $(document).ready(function(id){
-    getInfoGame_one(200);
+    getInfoGame_one(sessionid);
 });
 
-var rank = getInfoGame_one(str);
+var rank = getInfoGame_one(sessionid);
 
-function getInfoGame_one(str){
-  url = "http://localhost/kk/api/member/getinfogame.php?id=";
-  if (str == "") {
+function getInfoGame_one(sessionid){
+  url = "api/member/getinfogame.php?id=";
+  if (sessionid == "") {
       document.getElementById("txtHint").innerHTML = "";
       return;
   } else {
@@ -20,7 +20,7 @@ function getInfoGame_one(str){
       xmlhttp.onreadystatechange = function(data) {
           if (this.readyState == 4 && this.status == 200) {
             //  var data = JSON.parse(this.responseText);
-              $.getJSON(url + str, function(data){
+              $.getJSON(url + sessionid, function(data){
                 this.rank = data.rank;
                 this.sumScore = data.sumScore;
                 this.coin = data.coin;
@@ -34,7 +34,7 @@ function getInfoGame_one(str){
               });
           }
       };
-      xmlhttp.open("GET",url + str,true);
+      xmlhttp.open("GET",url + sessionid,true);
       xmlhttp.send();
   }
 }

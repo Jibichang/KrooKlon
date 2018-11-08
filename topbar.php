@@ -6,7 +6,7 @@
     <a href="#">
       <img src="pic/avatar.png" style="height: 48px" class="user"></a>
     <div class="dropdown-user">
-        <a href="#">แก้ไขข้อมูล</a>
+        <a href="editProfile.php">แก้ไขข้อมูล</a>
         <a href="#">ออกจากระบบ</a>
     </div>
   </div>

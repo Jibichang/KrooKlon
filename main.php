@@ -1,3 +1,4 @@
+<?php include("sessionStart.php") ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,6 +16,9 @@
       <link rel="stylesheet" href="css/ie.css">
     <![endif]-->
     <script src="js/responsive-nav.js"></script>
+    <script type="text/javascript">
+      var sessionid = "<?php echo $_SESSION['id']; ?>";
+    </script>
 
   </head>
   <body>
@@ -127,11 +131,6 @@
     <script src="js/fastclick.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/fixed-responsive-nav.js"></script>
-    <footer style="font-size: 15px; text-align: center; padding: 20px; background-color: #fff7e6">
-      <hr>
-      <p>ครูกลอน <br>
-เป็นเว็บไซต์ที่เกิดจากผู้พัฒนาที่สนใจทางด้านภาษาไทย <br> รวมถึงการแต่งกลอน
-โดยนำเสนอออกมาในรูปแบบเกมช่วยฝึกทักษะการแต่งกลอนสุภาพ ให้ได้เข้าใจและเล่นได้อย่างสนุกสนาน</p>
-    </footer>
+    <?php include('footer.php'); ?>
   </body>
 </html>

@@ -20,9 +20,9 @@
 
   // set product property values
   $member->name = $data->name;
-  $product->price = $data->price;
-  $product->description = $data->description;
-  $product->category_id = $data->category_id;
+  $member->price = $data->price;
+  $member->description = $data->description;
+  $member->category_id = $data->category_id;
 
   // update the product
   if($member->update()){
